@@ -1,29 +1,25 @@
 # MERN Boilerplate
+>`M`ongoDB `E`xpress.js `R`eact.js `N`ode.js
 
-Fullstack MERN application with Redux boilerplate
-
-> MongoDB Express.js React.js Node.js
+Fullstack MERN application boilerplate based on `Traversy Media`
 
 ### Inside
-
-- Setup folder structure
-- Development scripts
+- React with Redux state management tool (Frontend)
+- Node with Express and Mongoose (Backend)
+- Configured folder structure
 - Redux shop connected
+- Added Redux DevTools 
+- Development scripts
 - .gitignore from gitignore.io
 
 ### Instalation
-
     $ npm install
     $ npm run client-install
 
 ### Development build
-
     $ npm run dev
-
 Runs client and server concurrently
-
 ### Serverside packages
-
 - Express
 - Mongoose
 - dotenv
@@ -31,7 +27,6 @@ Runs client and server concurrently
 - concurrently
 
 ### Clienside packages
-
 - axios
 - bootstrap
 - react-redux
@@ -39,7 +34,3 @@ Runs client and server concurrently
 - redux
 - redux-devtools-extension
 - redux-thunk
-
-## License
-
-MIT
