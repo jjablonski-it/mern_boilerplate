@@ -1,0 +1,32 @@
+{
+  "name": "mern-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for mern stack applications",
+  "main": "server.js",
+  "scripts": {
+    "client": "npm run start --prefix client",
+    "server": "nodemon server.js",
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run client\" \"npm run server \"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "node",
+    "boilerplate"
+  ],
+  "author": "Jakub Jabłoński",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^5.0.2",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  }
+}
