@@ -10,6 +10,7 @@ Fullstack MERN application boilerplate based on `Traversy Media`
 - Redux shop connected
 - Added Redux DevTools 
 - Development scripts
+- Heroku deploy ready
 - .gitignore from gitignore.io
 
 ### Instalation
